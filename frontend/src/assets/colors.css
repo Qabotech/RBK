@@ -1,0 +1,95 @@
+/* Palette 1: Royal Elegance (Gold & Green) */
+:root {
+    --primary-light: #ffe6a8; /* Soft gold light */
+    --primary: #e1c14d; /* Rich royal gold */
+    --primary-dark: #b79835; /* Deep golden bronze */
+    --accent-light: #a4d6a7; /* Light jade green */
+    --accent: #6ea86e; /* Balanced emerald green */
+    --accent-dark: #4a784a; /* Deep forest green */
+    --white: #FFFFFF; /* Pure white */
+    --greyLight-1: #f5f0e4; /* Warm cream grey */
+    --greyLight-2: #d9d3c4; /* Muted sandy grey */
+    --greyLight-3: #bfb7a7; /* Warm neutral grey */
+    --greyDark: #8a8174; /* Rich mocha grey */
+}
+
+/* Palette 2: Arctic Glow (Blue & White) */
+:root.arctic-glow {
+    --primary-light: #cde7f9; /* Icy blue light */
+    --primary: #6ab7e4; /* Sky blue */
+    --primary-dark: #387f9d; /* Deep arctic blue */
+    --accent-light: #f0f7ff; /* Frosty white */
+    --accent: #c4d9ef; /* Soft winter blue */
+    --accent-dark: #94b0d1; /* Muted steel blue */
+    --white: #FFFFFF; /* Crisp white */
+    --greyLight-1: #e5ecf3; /* Cool light grey */
+    --greyLight-2: #c9d4de; /* Muted blue-grey */
+    --greyLight-3: #a5b3c1; /* Medium grey-blue */
+    --greyDark: #7a8d9d; /* Slate grey */
+}
+
+/* Palette 3: Desert Mirage (Earthy Tones) */
+:root.desert-mirage {
+    --primary-light: #f4d9ae; /* Light desert sand */
+    --primary: #d2a36b; /* Warm camel */
+    --primary-dark: #8b6136; /* Deep terracotta */
+    --accent-light: #e3c7b7; /* Muted peach */
+    --accent: #a16f52; /* Burnt clay */
+    --accent-dark: #5c3a2b; /* Dark cinnamon */
+    --white: #FFFFFF; /* Bright white */
+    --greyLight-1: #ede4dd; /* Warm beige grey */
+    --greyLight-2: #d2c2b0; /* Soft neutral grey */
+    --greyLight-3: #a89682; /* Earthy medium grey */
+    --greyDark: #7e6d5d; /* Deep taupe grey */
+}
+
+/* Palette 4: Mystic Orchid (Purple & Pink) */
+:root.mystic-orchid {
+    --primary-light: #e9d4f5; /* Soft lavender light */
+    --primary: #c298d1; /* Mystic purple */
+    --primary-dark: #815a97; /* Deep violet */
+    --accent-light: #f5d1e8; /* Light orchid pink */
+    --accent: #d17bad; /* Vibrant magenta */
+    --accent-dark: #974773; /* Bold dark pink */
+    --white: #FFFFFF; /* Pure white */
+    --greyLight-1: #f2eaf2; /* Soft greyish lavender */
+    --greyLight-2: #d9c6d8; /* Muted mauve grey */
+    --greyLight-3: #b3a1b0; /* Medium taupe purple */
+    --greyDark: #8f778b; /* Deep plum grey */
+}
+
+/* Palette 5: Tropical Lagoon (Teal & Coral) */
+:root.tropical-lagoon {
+    --primary-light: #adeee5; /* Light aqua teal */
+    --primary: #56c1b0; /* Vibrant teal */
+    --primary-dark: #2b8370; /* Deep lagoon teal */
+    --accent-light: #ffd9cc; /* Soft coral light */
+    --accent: #ff9678; /* Bright coral */
+    --accent-dark: #e56342; /* Bold red-orange */
+    --white: #FFFFFF; /* Bright white */
+    --greyLight-1: #f1f6f5; /* Cool mist grey */
+    --greyLight-2: #d4dfdc; /* Soft seafoam grey */
+    --greyLight-3: #b3bfb9; /* Muted jade grey */
+    --greyDark: #829892; /* Deep greenish grey */
+}
+/* Dark Mode Palette */
+
+:root.dark-theme {
+    --primary-light: #4a4a4a; /* Soft charcoal */
+    --primary: #2f2f2f; /* Deep grey */
+    --primary-dark: #8f8f8f; /* Jet black */
+    --accent-light: #52528d; /* Muted periwinkle */
+    --accent: #a2a2ff; /* Rich indigo */
+    --accent-dark: #aeaeff; /* Midnight blue */
+    --white: #e0e0e0; /* Soft white for contrast */
+    --greyLight-1: #d8d8d8; /* Smoky grey */
+    --greyLight-2: #919191; /* Dark ash grey */
+    --greyLight-3: #666666; /* Deep slate grey */
+    --greyDark: #1e1e1e; /* Blackened grey */
+}
+.dark-theme{
+    background: #1e1e1e;
+}
+.dark-theme .components{
+    background: transparent !important;
+}
